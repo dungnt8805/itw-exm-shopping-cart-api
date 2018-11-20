@@ -74,7 +74,7 @@ function update(req, rep) {
 		for (let i = 0; i < updateItems.length; i++) {
 			if (updateItems[i].quantity) {
 				const item = _.find(items, (obj) => {
-					return obj.url === updateItems[i].product;
+					return obj.url === updateItems[i].url;
 				});
 				if (item) {
 					item.quantity = updateItems[i].quantity;

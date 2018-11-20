@@ -41,7 +41,7 @@ module.exports = [
                 },
     			payload: {
                     items: Joi.array().items(Joi.object().keys({
-                        product: Joi.string().required(),
+                        url: Joi.string().required(),
                         quantity: Joi.number().required(),
                     }))
     			},
