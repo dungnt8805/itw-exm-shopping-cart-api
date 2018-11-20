@@ -1,0 +1,18 @@
+{
+    "hapi": {
+      "conf": {
+        "debug": {
+          "request": [
+            "error",
+            "uncaught"
+          ]
+        }
+      },
+      "auth": {
+        "tokenSecret": "SSGYHhc9qzHk3VU344Gs24Fz"
+      }
+    },
+    "database": {
+      "url": "dzung_me:vR44G4nMO3Q4Gg1A@cluster0-shard-00-00-bd0gi.mongodb.net:27017,cluster0-shard-00-01-bd0gi.mongodb.net:27017,cluster0-shard-00-02-bd0gi.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&useNewUrlParser=true"
+    }
+  }
